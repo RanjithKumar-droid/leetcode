@@ -16,4 +16,13 @@ class Zigzag{
         }
         return ret.toString();
     }
+    public static void main(String args[]) {
+	Scanner scan = new Scanner(System.in);
+	Scanner scan1 = new Scanner(System.in);
+	System.out.println("Enter String");
+	String str = scan.nextLine();
+	System.out.println("Enter no of rows");
+	int row = scan1.nextInt();
+ 	convert(str, row);
+     }
 }
