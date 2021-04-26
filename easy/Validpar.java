@@ -28,4 +28,10 @@ class Validpar{
         }
         return stak.isEmpty();
     }
+       public static void main(String args[]) {
+            Scanner st = new Scanner(System.in);
+          System.out.println("Enter Input");
+          String inp = st.nextLine();
+            isValid(inp);
+}
 }
