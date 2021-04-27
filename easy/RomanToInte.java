@@ -56,4 +56,10 @@ public int romanTable(char c){
     }
     return num;
     }
+    public static void main(String args[]) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter roman to change as Integer");
+ 	    String str = sc.nextLine();
+		System.out.println(romanToInt(str));
+	}
 }
